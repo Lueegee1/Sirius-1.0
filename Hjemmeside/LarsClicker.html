@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="clickers" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lars Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Img/Lars.jpg">
+</head>
+<body id="Backagain">
+    <div class="tilbage" id="larrrrrs"><a href="index.html">Tilbage</a></div>
+    <div><img src="Img/Lars.jpg" class="malkemanden" id="pappi" alt="Daddy" onclick="Mælk()"></div>
+
+    <div Id="mp">Du har: 0 mælk &#129371;
+        <div class="Milky">&#129371;</div>
+    </div>
+    <div id="mps">Du får: 0 mælk per sekund</div>
+    <div class="hunger">Hjælp Lars med at malke mælk til de hungrende elever ved at trykke på ham</div>
+    <div class="Arlapng"><img src="Img/arla.png" alt="Arla" id="poop"></div>
+
+    <div class="opgraderinger">Opgraderinger
+        <!-- Gains -->
+        <div id="Gains" class="upgrade" onclick="GainsUpgrade()">Gains
+            <div class="beskrivelse">Larses mælk er ligesom steroider, drik noget af Larses mælk for gains +1 mælk per click
+                <div class="maengde" id="GainsM">Du har 0 gains (svag)  </div>
+                <div class="pris" id="Gains-pris">Koster 20 mælk</div>
+            </div>
+        </div>
+        <!-- Lektier -->
+        <div id="lektier" class="upgrade" onclick="LektieUpgrade()">Ingen lektier
+            <div class="beskrivelse" id="elev-upgrade">Du lover eleverne at der ikke er nogle lektier i en uge, 2x mælke produktion for elever
+                <div class="pris" id="Elev-upgrade-pris">Koster 200 mælk</div>
+            </div>
+        </div>
+        <!-- Løn -->
+        <div class="upgrade" id="lønforhøjelser" onclick="LønForhøjelse()">Lønforhøjelse
+            <div class="beskrivelse" >Lars lover medarbejderne en Lønforhøjelse, 2x mælkproduktion for medarbejdere
+                <div class="pris" id="prisLøn">Koster 7500 mælk</div>
+            </div>
+        </div>
+        <!-- Villy -->
+        <div class="upgrade" onclick="Kok()" id="Villy">Villy
+        <div class="beskrivelse">Villys mad styrker beboere på Nordborg slot 1.5x mælk fra elever og medarbejdere
+            <div class="pris" id="pris-Willy">Koster 100k mælk</div>
+        </div>
+        </div>
+        <!-- Navn -->
+        <div class="upgrade" id="Lars>Arla" onclick="Lars()">Fix Navnet
+            <div class="beskrivelse">Fixer navnet fra "Arla" til "Lars" 5x mælk fra landmænd
+                <div class="pris" id="Lars-pris">Koster 200k</div>
+            </div>
+        </div>
+        <!-- Jumping fitness -->
+        <div class="upgrade" onclick="Fitness()" id="fitty">Jumping Fitness
+        <div class="beskrivelse">Jumping fitness styrker elevernes muskler 0.1 mælk per elev per medarbejder
+        <div class="pris" id="Fitness-pris">Koster 250k mælk</div>
+        </div>
+        </div>
+        <!-- T-shirt -->
+        <div class="upgrade" id="T-shirt" onclick="FjernTshirt()">Fjern t-shirt
+            <div class="beskrivelse" id="hejhej">Fjerner Larses t-shirt &#128555;. Giver bedere adgang til malkerne, 3x mælk
+                <div class="pris" id="T-shirt-pris">Koster 5m mælk</div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="opgraderinger" id="malkere">Malkere
+        <div class="upgrade" id="elev" onclick="ElevKøb()">Nse-Elev
+            <div class="beskrivelse">De hungrende nse-elever malker gerne Lars selv +1 mælk per sekund
+                <div class="pris" id="Elev-pris">Koster 50 Mælk</div>
+            </div>
+        </div>
+        <div class="upgrade" onclick="MedarbejderKøb()">Nse medarbejder
+            <div class="beskrivelse">Nse medarbejdere har mange års erfering med at malke Lars +5 mælk per sekund
+                <div class="pris" id="Medarbejder-pris">Koster 500 mælk</div>
+            </div>
+        </div>
+        <div class="upgrade" onclick="ArlaKøb()">Arla landmand
+        <div class="beskrivelse">Top trænede Arla landmænd malker Lars effektivt + 20 mælk per sekund
+            <div class="pris" id="Arla-pris">Koster 20k mælk</div>
+        </div>
+        </div>
+        <div class="upgrade" onclick="DanfossKøb()">Danfoss arbejder
+        <div class="beskrivelse">Du har endelig regnet ud hvad de laver på Danfoss... DE MALKER LARS!!!!!!!!!!!!!!! + 500 mælk per sekund
+            <div class="pris" id="prisDanfoss">Koster 500k mælk</div>
+        </div>
+        </div>
+    </div>
+
+    <script src="Lars.js"></script>
+</body>
+</html>
